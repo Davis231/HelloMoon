@@ -11,7 +11,6 @@ import android.widget.VideoView;
 
 public class HelloMoonFragment extends Fragment {
     private AudioPlayer mPlayer = new AudioPlayer();
-    //private AudioPlayer mPlayerVideo = new AudioPlayer();
 
     private VideoView mVideoView;
 
