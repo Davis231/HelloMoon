@@ -11,10 +11,15 @@
         android:scaleType="centerInside"
         android:layout_weight="1"
         />
+
+    <VideoView
+        android:id="@+id/hellomoon_videoView"
+        android:layout_height="212dp"
+        />
+
     <TableRow
         android:gravity="center|bottom"
-        android:layout_weight="0"
-        >
+        android:layout_weight="0" >
         <Button android:id="@+id/hellomoon_playButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,4 +33,30 @@
             />
     </TableRow>
 
+    <TableRow
+        android:gravity="center|bottom"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/hellomoon_playVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_play_video"
+            />
+
+        <Button
+            android:id="@+id/hellomoon_stopVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_stop_video"
+            />
+
+        <Button
+            android:id="@+id/hellomoon_pauseVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_pause_video"
+            />
+
+    </TableRow>
 </TableLayout>
